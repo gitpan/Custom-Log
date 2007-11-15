@@ -1,0 +1,19 @@
+---
+name: Custom-Log
+version: 0.01
+author:
+  - James Conerly
+abstract: Yes... Another OO-ish logging module.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 0
+provides:
+  Custom::Log:
+    file: lib/Custom/Log.pm
+    version: 0.01
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
